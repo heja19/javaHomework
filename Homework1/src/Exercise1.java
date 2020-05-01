@@ -1,5 +1,4 @@
-//Exercise 1
-
+//Exercise1
 
 import java.util.Scanner;
 
