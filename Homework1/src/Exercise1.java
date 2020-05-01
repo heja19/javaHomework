@@ -1,5 +1,5 @@
 //Exercise 1
-package com.company;
+
 
 import java.util.Scanner;
 
