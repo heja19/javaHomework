@@ -23,7 +23,7 @@ public class Warehouse {
     //dispatch(prod)
     public String dispatch(Product prod){
         for (Shelf shelf : shelves){
-            if(shelf.getProduct().equals(prod)){
+            if(shelf.getProduct()==prod){
                 shelves.remove(shelf);
                 return shelf.getShelfName();
             }
@@ -35,7 +35,7 @@ public class Warehouse {
     public Integer getItemCount(Product prod) {
         int counter = 0;
         for(Shelf shelf : shelves){
-            if(shelf.getProduct().equals(prod)){
+            if(shelf.getProduct()==prod){
                 counter += 1;
             }
         }

@@ -1,4 +1,5 @@
 "ShelfName","Product"
+"A","Product{name='sokid', size=42}"
 "A","Product{name='kindad', size=10}"
 "B","Product{name='kindad', size=9}"
 "B","Product{name='sokid', size=42}"
